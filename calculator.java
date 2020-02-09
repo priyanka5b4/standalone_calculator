@@ -378,101 +378,101 @@ public class calculator extends javax.swing.JFrame {
      }
 
 
-    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {
    jTextField1.setText(jTextField1.getText()+"1");
-   jLabel2.setText("1");// TODO add your handling code here:
-    }//GEN-LAST:event_jButton12ActionPerformed
+   jLabel2.setText("1");
+    }
 
-    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
-        // TODO add your handling code here:
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {
+
          jTextField1.setText(jTextField1.getText()+"3");
          jLabel2.setText("3");
-    }//GEN-LAST:event_jButton14ActionPerformed
+    }
 
-    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
+    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {
        num=Double.parseDouble(jLabel2.getText());
         arithmatic_operation();
-        jTextField1.setText(jLabel1.getText().toString());                     // TODO add your handling code here:
-    }//GEN-LAST:event_jButton20ActionPerformed
+        jTextField1.setText(jLabel1.getText().toString());
+    }/
 
-    private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
-                 enable();        // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton1ActionPerformed
+    private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+                 enable();
+    }
 
-    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {
        jTextField1.setText(jTextField1.getText()+".");
-       jLabel2.setText(".");// TODO add your handling code here:
-    }//GEN-LAST:event_jButton18ActionPerformed
+       jLabel2.setText(".");
+    }
 
-    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
-        // TODO add your handling code here:
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {
+
         jTextField1.setText(jTextField1.getText()+"2");
         jLabel2.setText("2");
 
-    }//GEN-LAST:event_jButton13ActionPerformed
+    }
 
-    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-        // TODO add your handling code here:
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {
+
            jTextField1.setText(jTextField1.getText()+"6");
            jLabel2.setText("6");
-    }//GEN-LAST:event_jButton10ActionPerformed
+    }
 
-    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {
      jTextField1.setText(jTextField1.getText()+"0");
-     jLabel2.setText("0");// TODO add your handling code here:
-    }//GEN-LAST:event_jButton17ActionPerformed
+     jLabel2.setText("0");
+    }
 
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {
       jTextField1.setText(jTextField1.getText()+"5");
-      jLabel2.setText("5");// TODO add your handling code here:
-    }//GEN-LAST:event_jButton8ActionPerformed
+      jLabel2.setText("5");
+    }
 
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {
           jTextField1.setText(jTextField1.getText()+"4");
-          jLabel2.setText("4");// TODO add your handling code here:
-    }//GEN-LAST:event_jButton9ActionPerformed
+          jLabel2.setText("4");
+    }
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {
             jTextField1.setText(jTextField1.getText()+"7");
-            jLabel2.setText("7");// TODO add your handling code here:
-    }//GEN-LAST:event_jButton4ActionPerformed
+            jLabel2.setText("7");
+    }
 
-    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {
               jTextField1.setText(jTextField1.getText()+"8");
-                        jLabel2.setText("8");                                // TODO add your handling code here:
-    }//GEN-LAST:event_jButton19ActionPerformed
+                        jLabel2.setText("8");
+    }
 
-    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
+    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {
          invoke_operation();
         oper=1;
               jTextField1.setText(jTextField1.getText() + "+");
 
-    }//GEN-LAST:event_jButton22ActionPerformed
+    }
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {
       jTextField1.setText(jTextField1.getText()+"9");
-      jLabel2.setText("9");// TODO add your handling code here:
-    }//GEN-LAST:event_jButton6ActionPerformed
+      jLabel2.setText("9");
+    }
 
-    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {
         invoke_operation();
         oper=4;
-        jTextField1.setText(jTextField1.getText()+ "/");         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton15ActionPerformed
+        jTextField1.setText(jTextField1.getText()+ "/");
+    }
 
-    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {
         invoke_operation();
         oper=3;
-        jTextField1.setText(jTextField1.getText()+"*");         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton11ActionPerformed
+        jTextField1.setText(jTextField1.getText()+"*");
+    }
 
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {
         invoke_operation();
         oper=2;
-        jTextField1.setText(jTextField1.getText()+"-");         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton7ActionPerformed
+        jTextField1.setText(jTextField1.getText()+"-");
+    }
 
-    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
+    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {
              int length=jTextField1.getText().length();
            String store;
              if(length>0){
@@ -481,28 +481,20 @@ public class calculator extends javax.swing.JFrame {
                    store=str.toString();
                    jTextField1.setText(store);
                   }
-    }//GEN-LAST:event_jButton23ActionPerformed
+    }
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
               jTextField1.setText(" ");
               jLabel1.setText(" ");
               oper=0;
-                                     // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }
 
-    private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
-            disable();        // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton2ActionPerformed
+    private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {
+            disable();
+    }
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
-         */
+
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -553,7 +545,7 @@ public class calculator extends javax.swing.JFrame {
                jButton22.setEnabled(false);
 
     }
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
@@ -578,5 +570,5 @@ public class calculator extends javax.swing.JFrame {
     private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JRadioButton jRadioButton2;
     private javax.swing.JTextField jTextField1;
-    // End of variables declaration//GEN-END:variables
+
 }
